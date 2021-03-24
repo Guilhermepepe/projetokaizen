@@ -1,0 +1,100 @@
+
+   
+
+    <main>
+        
+        <div  id="grandediv">
+
+            <div id="card_header">
+                <h3>Criação de Orçamento</h3>
+            </div>
+
+        <form action="" id="formvenda">
+            <legend >Tipo de venda</legend>          
+            <input type="radio" id="propria" name="p" value="op1">Própria
+            <input type="radio" id="parceiro"  name="p" value="op2">Parceiro
+        </form>
+
+        <form action="" id="formusuario">
+            <legend >Usuários</legend>
+            <input type="number" required name="input_usuario" id="input_usuario">
+        </form>
+
+        <form action="" id="formimposto">
+            <legend >Imposto %</legend>
+            <input type="text" name="input_imposto" id="input_imposto">
+        </form>
+
+        <form action="" id="formcomissao">
+            <legend >Comissão %</legend>
+            <input type="text" name="input_comissao" id="input_comissao"> 
+        </form>
+            
+        <table border="1" cellspacing="0">
+                <tr>
+                    <td id="coluna_produto">Produto</td>
+                    <td id="coluna_valor">Valor</td>
+                    <td id="coluna_revenda">Preço de Revenda</td>
+                    <td id="coluna_total">Valor Total</td>
+                    <td id="coluna_selecionar">Selecionar Produto</td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Filtrar" name="filtro_prod" id="filtro_prod"></td>
+                    <td><input type="number" placeholder="Filtrar" name="filtro_valor" id="filtro_valor" class="v_r_t"></td>
+                    <td><input type="text" placeholder="Filtrar" name="filtro_renda" id="filtro_renda" class="v_r_t"></td>
+                    <td><input type="number" placeholder="Filtrar" name="filtro_total" id="filtro_total" class="v_r_t"></td>
+                    <td><input type="checkbox" name="" class="checkbox" ></td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="checkbox" name="" class="checkbox" ><span class="check"></span></td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="checkbox" name="" class="checkbox" ><span class="check"></span></td>
+                   
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="checkbox" name="" class="checkbox" ><span class="check"></span></td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="checkbox" name="" class="checkbox" ><span class="check"></span></td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="checkbox" name="" class="checkbox" ><span class="check"></span></td>
+                    
+                </tr>
+                
+            </table>
+
+            <input  id="botao_alertas" value="Próximo" type="button" routerLink="/passo21">
+            <input  id="botao_alertas2" value="Anterior" type="button" routerLink="/">
+           
+            
+        </div>
+    </main>

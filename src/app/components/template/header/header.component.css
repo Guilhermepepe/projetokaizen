@@ -1,0 +1,26 @@
+
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logoo{
+    
+    width: 22px;
+    height: 8px;
+}
+
+.header .title-group{
+    padding-left: 15px;
+
+}
+.header .title-group{
+
+}

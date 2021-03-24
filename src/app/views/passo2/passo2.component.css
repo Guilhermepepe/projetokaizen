@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html{
+    position: relative;
+width: 1366px;
+height: 768px;
+
+background: #EBEFF6;
+}
+body{
+    position: absolute;
+width: 1366px;
+height: 770px;
+left: 0px;
+top: -2px;
+font-family: 'Open sans';
+}
+#grandediv{
+   
+    position: absolute;
+width: 1256px;
+height: 667px;
+left: 85px;
+top: 89px;
+
+background: #FFFFFF;
+border: 1px solid #E4E9F2;
+box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 10px 10px;
+}
+
+
+#card_header{
+    position: absolute;
+    width: 1256px;
+    height: 39px;
+    
+    
+    background: #FFFFFF;
+    
+    border-radius: 5px 5px 0px 0px;
+
+}
+h3{
+    margin-top: 8px;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+margin-left: 60px;
+
+
+color: #000000;
+}
+
+
+table{
+   
+    position: absolute;
+width: 1130px;
+height: 391px;
+left: 47px;
+top: 210px;
+text-align: center;
+font-size: 12px;
+font-weight: bold;
+
+
+}
+#coluna_produto{
+    width: 488px;
+}
+#coluna_selecionar{
+    height: 48.12px;
+    width: 162.9px;
+}
+#coluna_nomecli{
+    width: 523.39px;
+    height: 43px;
+    
+}
+#coluna_cnpj{
+    width: 174.73px;
+    padding-right: 18.55px;
+    padding-left: 18.55px;
+}
+#coluna_porte{
+    width: 174.73px;
+    padding-right: 18.55px;
+    padding-left: 18.55px;
+}
+#coluna_qtd{
+    width: 174.73px;
+    padding-right: 18.55px;
+    padding-left: 18.55px;
+}
+#coluna_tel{
+    width: 174.73px;
+    padding-right: 18.55px;
+    padding-left: 18.55px;
+}
+
+
+button{
+    font-size: 24px;
+    color: #FFFFFF;
+background: #145999;
+border-radius: 5px;
+width: 60.99px;
+height: 27.26px;
+line-height: 0px;
+outline: 0;
+} 
+
+#formusuario{
+    position: absolute;
+width: 192px;
+height: 25px;
+left: 244px;
+top: 130px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+display: block;
+align-items: center;
+
+color: #000000;
+}
+#input_usuario{
+    width: 192px;
+height: 30px;
+}
+
+
+#formvenda{
+    position: absolute;
+width: 207px;
+height: 46px;
+left: 56px;
+top: 130px;
+font-weight: 600;
+}
+#formimposto{
+    position: absolute;
+width: 192px;
+height: 25px;
+left: 469px;
+top: 130px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+
+display: block;
+align-items: center;
+
+color: #000000;
+
+}
+#input_imposto{
+    width: 192px;
+height: 30px;
+}
+#formcomissao{
+    position: absolute;
+    width: 192px;
+    height: 25px;
+left: 694px;
+top: 130px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+
+display: block;
+align-items: center;
+
+color: #000000;
+}
+#input_comissao{
+    width: 192px;
+height: 30px;
+}
+
+#filtro_prod{
+    background: #FFFFFF;
+border: 1px solid #CED4DA;
+box-sizing: border-box;
+border-radius: 5px;
+width: 445.48px;
+height: 24.06px;
+}
+.v_r_t{
+    background: #FFFFFF;
+border: 1px solid #CED4DA;
+box-sizing: border-box;
+border-radius: 5px;
+width: 128.3px;
+height: 24.06px;
+}
+#botao_alertas{
+    position: absolute;
+width: 102.98px;
+height: 27.26px;
+left: 1140px;
+top: 619px;
+outline: 0;
+border: 0.1 ;
+border-color: #99143F;
+background: #99143F;
+border-radius: 5px;
+font-weight: 600;
+color: #FFFFFF;
+font-family: 'Open sans';
+}
+#botao_alertas2{
+    position: absolute;
+width: 102.98px;
+height: 27.26px;
+left: 1017px;
+top: 619px;
+outline: 0;
+border: 0.1;
+border-color: #99143F;
+background: #99143F;
+border-radius: 5px;
+font-weight: 600;
+color: #FFFFFF;
+font-family: 'Open sans';
+}

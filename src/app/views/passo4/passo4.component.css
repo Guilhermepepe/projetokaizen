@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html{
+    position: relative;
+width: 1366px;
+height: 768px;
+
+background: #EBEFF6;
+}
+body{
+    position: absolute;
+width: 1366px;
+height: 770px;
+left: 0px;
+top: -2px;
+font-family: 'Open sans';
+}
+#grandediv{
+    
+    position: absolute;
+    width: 1256px;
+height: 667px;
+left: 100px;
+top: 123px;
+
+background: #FFFFFF;
+border: 1px solid #E4E9F2;
+box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 10px 10px;
+}
+
+
+#card_header{
+    position: absolute;
+    width: 1256px;
+    height: 39px;
+    
+    
+    background: #FFFFFF;
+    
+    border-radius: 5px 5px 0px 0px;
+
+}
+h3{
+    margin-top: 8px;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+margin-left: 60px;
+
+
+color: #000000;
+}
+
+#botao_alertas{
+    position: absolute;
+width: 102.98px;
+height: 27.26px;
+left: 1140px;
+top: 615px;
+outline: 0;
+border: 0.1;
+background: #145999;
+border-radius: 5px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+color: #FFFFFF;
+}
+table{
+   
+    position: absolute;
+    width: 1212px;
+height: 325px;
+left: 20px;
+top: 97px;
+text-align: center;
+font-size: 12px;
+font-weight: bold;
+
+
+}
+
+#coluna_nomecli{
+    width: 523.39px;
+    height: 43px;
+    
+}
+#coluna_cnpj{
+    width: 174.73px;
+    padding-right: 18.55px;
+    padding-left: 18.55px;
+}
+#coluna_porte{
+    width: 174.73px;
+    padding-right: 18.55px;
+    padding-left: 18.55px;
+}
+#coluna_qtd{
+    width: 174.73px;
+    padding-right: 18.55px;
+    padding-left: 18.55px;
+}
+#coluna_tel{
+    width: 174.73px;
+    padding-right: 18.55px;
+    padding-left: 18.55px;
+}
+#coluna_adicionar{
+    width: 174.73px;
+    padding-right: 18.55px;
+    padding-left: 18.55px;
+}
+
+button{
+    font-size: 24px;
+    color: #FFFFFF;
+    outline: 0;
+    border-color:#145999 ;
+background: #145999;
+border-radius: 5px;
+width: 60.99px;
+height: 27.26px;
+line-height: 0px;
+outline: 0;
+}
